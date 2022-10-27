@@ -28,6 +28,8 @@ namespace AppointmentBooking.Controllers
             .ToArray();
         }
 
+
+        // SOME NEW COMMENTS IN IT
         [Route("getname")]
         [HttpGet()]
         public string getName()
